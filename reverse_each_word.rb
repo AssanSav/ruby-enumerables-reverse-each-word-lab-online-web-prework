@@ -7,11 +7,4 @@ def reverse_each_word(sentence)
  end
  return reverse_word.join(" ")
 end
-
-
-
-
-
-#(:sentence1) 
-
 #expect(reverse_each_word(sentence1)).to eq("olleH ,ereht dna woh era ?uoy")
