@@ -2,10 +2,9 @@ def reverse_each_word(" ")
  string = string.split(" ")
   reverse_word = []
   string.each do |word|
-    word = word.reverse
-   reverse_word.push(word)
+   reverse_word.push(word.reverse)
  end
- return reverse_word
+ return reverse_word.join(" ")
 end
 
 
