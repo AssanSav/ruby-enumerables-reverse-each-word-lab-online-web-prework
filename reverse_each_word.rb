@@ -3,6 +3,7 @@ def reverse_each_word(string)
   string.each do |word| 
    reverse_word.push(word.reverse)
  end
+ return reverse_word
 end
 
 
