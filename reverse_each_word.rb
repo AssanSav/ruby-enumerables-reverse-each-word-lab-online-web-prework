@@ -1,7 +1,8 @@
 def reverse_each_word(string)
   string = "Hello there, and how are you?" 
   reverse_word = []
-  string.each do |word| 
+  string.each do |word|
+    word = word.reverse
    reverse_word.push(word.reverse)
  end
  return reverse_word
