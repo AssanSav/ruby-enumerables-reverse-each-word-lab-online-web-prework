@@ -1,5 +1,5 @@
-def reverse_each_word(" ")
- string = string.split(" ")
+def reverse_each_word(sentence)
+ string = sentence.split(" ")
   reverse_word = []
   string.each do |word|
    reverse_word.push(word.reverse)
