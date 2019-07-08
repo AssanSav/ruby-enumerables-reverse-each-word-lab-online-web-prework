@@ -1,4 +1,5 @@
 def reverse_each_word(string)
+  string = "Hello there, and how are you?" 
   reverse_word = []
   string.each do |word| 
    reverse_word.push(word.reverse)
